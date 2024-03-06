@@ -4,6 +4,16 @@
     justify-content: space-between;
 }
 
+button{
+    background-color: #3882f6;
+    font-size: 15px;
+    width: 100px;
+    height: 33px;
+    text-align: center;
+    border-radius: 8px;
+    border-width: 0px;
+}
+
 .links{
     display: flex;
     gap: 25px;
@@ -12,19 +22,22 @@
 }
 .header{
     font-size: 48px;
+    padding-top: 0px;
+}
+.landing-image{
+    height: 300px; 
+    width: auto;
+    padding-top: 25px;
 }
 
 .main-content{
     display: flex;
     gap: 50px;
-    margin-top: 20px;
     justify-content: center;
 }
 .main-content-text{
     padding-left: 25px;
-}
-.sign-up{
-    background-color: #3882f6;
+    width: 450px;
 }
 .logo{
     padding: 5px;
@@ -36,4 +49,37 @@
     color: #F9FAF8;
     padding-bottom: 130px;
     font-size: 18px;
+}
+
+.background-2{
+    margin-bottom: 100px;
+}
+
+.flex-heading{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 36px;
+}
+.flex-container{
+    display: flex;
+    justify-content: center;
+
+}
+.flex-items{
+    height: 250px;
+    width: 250px;
+    padding: 0 15px 0 15px;
+}
+img{
+    height:200px;
+    width: 200px;
+    object-fit: contain;
+}
+
+.review{
+    text-align: center;
+}
+
+.customer-name{
+    padding-left: 1100px;
 }
